@@ -1,14 +1,14 @@
-# Nexus BWT — Best Worst Tradeoff
+# SAD BWT — Best Worst Tradeoff
 
-Este repositório é o módulo independente do ecossistema **NEXUS MCDM**, configurado para operar exclusivamente com o método **BWT (Best Worst Tradeoff)**.
+Este repositório é o módulo independente do ecossistema **SAD MCDM**, configurado para operar exclusivamente com o método **BWT (Best Worst Tradeoff)**.
 
 ---
 
 ## 🎨 Identidade Visual e Branding
-- **Nome Oficial:** Nexus BWT
+- **Nome Oficial:** SAD BWT
 - **Cores Oficiais:** Carmim (`#DC2626`) e Areia/Dourado (`#D97706`)
 - **Conceito Visual:** Curva de bisseção interceptando um plano bidimensional de taxas de tradeoffs locais.
-- **Copyright:** Direitos Reservados © 2026 NEXUS-MCDM. Todos os direitos reservados.
+- **Copyright:** Direitos Reservados © 2026 SAD-MCDM. Todos os direitos reservados.
 
 ---
 
@@ -30,7 +30,7 @@ Para definir as relações reais de pesos cardinais entre os critérios:
 * As razões de tradeoff induzem o sistema de desigualdades físicas:
   $$w_B \cdot \Delta v_B \approx w_j \cdot \Delta v_j$$
 
-O solucionador do Nexus BWT executa uma Programação Linear que reconcilia os desvios de tradeoff, resolvendo para o conjunto de pesos cardinais ótimos $w^*$ e garantindo a consistência global da elicitação.
+O solucionador do SAD BWT executa uma Programação Linear que reconcilia os desvios de tradeoff, resolvendo para o conjunto de pesos cardinais ótimos $w^*$ e garantindo a consistência global da elicitação.
 
 ---
 
